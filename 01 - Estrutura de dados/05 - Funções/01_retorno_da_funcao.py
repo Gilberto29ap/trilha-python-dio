@@ -11,3 +11,10 @@ def retorna_antecessor_e_sucessor(numero):
 
 print(calcular_total([10, 20, 34]))  # 64
 print(retorna_antecessor_e_sucessor(10))  # (9, 11)
+
+def lista_nomes(lista):
+    print(lista)
+
+lista1 = ["gilberto", "gilmarcio", "marcela", "marcia"]
+
+lista_nomes(lista1[1])

@@ -6,9 +6,9 @@ contatos = {
 }
 
 for chave in contatos:
-    print(chave, contatos[chave])
+    print(chave, contatos[chave]["nome"])
 
 print("=" * 100)
 
 for chave, valor in contatos.items():
-    print(chave, valor)
+    print(chave, valor["nome"])

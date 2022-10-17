@@ -59,9 +59,10 @@ def exibir_extrato(saldo, /, *, extrato):
     print("==========================================")
 
 
+
 def criar_usuario(usuarios):
     cpf = input("Informe o CPF (somente número): ")
-    usuario = filtrar_usuario(cpf, usuarios)
+    usuario = filtrar_usuario(usuarios, cpf)
 
     if usuario:
         print("\n@@@ Já existe usuário com esse CPF! @@@")
