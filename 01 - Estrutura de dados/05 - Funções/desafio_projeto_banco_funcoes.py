@@ -212,10 +212,6 @@ def main():
             print("Opção inválida, tente novamente")
             menu_inicial()
 
-
-
-
-
 menu_inicial()
 
 main()
